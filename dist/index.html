@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>Daryn Teacher</title>
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/bootstrap-slider.min.css">
+    <link rel="stylesheet" href="css/jquery-nicelabel.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/icon/favicon.png">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header d-flex justify-content-between align-items-center">
+            <a href="index.html" class="logo">
+                <img src="img/logo/logo.png" alt="logo">
+            </a>
+            <div class="menu-xs">
+                <div class="menu-xs-head">
+                    <button class="btn-plain close-menu"><img src="img/icon/close.svg" alt=""></button>
+                </div>
+                <ul class="menu">
+                    <li><a href="#main">Басты бет</a></li>
+                    <li><a href="#rate">Рейтинг</a></li>
+                    <li><a href="#income">Табыс</a></li>
+                    <li><a href="#advantage">Тиімділігі</a></li>
+                </ul>
+            </div>
+            <div class="menu-right">
+                <a href="#" class="linkLogin">
+                    <i class="icon i-login"></i>
+                    <span>Профильге кіру</span>
+                </a>
+                <button class="btn-plain call-menu"><img src="img/icon/menu.svg" alt=""></button>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="main bg-yellow" id="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 col-md-5">
+                <div class="main-caption">
+                    <span>Daryn Teacher</span>
+                    <h1>
+                        Ұстаз бен оқушыны табыстыратын платформа
+                    </h1>
+                    <p>Құрметті ұстаз, онлайн сабақ беру платформасына қосылып, қашықтықта отырып табыс табыңыз.</p>
+                    <button class="btn-plain btn-purple call-modal">Қосылу</button>
+                </div>
+            </div>
+            <div class="col-xl-7 col-md-7">
+                <div class="main-video">
+                    <p class="video-hint">Платформа туралы видеоны қараңыз</p>
+                    <video controls poster="img/main/video-poster.png">
+                        <source src="movie.mp4" type="video/mp4">
+                    </video>
+                    <div class="quoteBox">
+                        <p>
+                            “Отандық білім беру жүйесі қашықтан оқыту форматына көшу қажет. Оқушылар және педагогтермен
+                            бірігіп қашықтан оқытудың сапалы жүйесін құра алатындығымызға сенімдімін.”
+                        </p>
+                        <div class="quoteItem">
+                            <div class="quoteItem-img">
+                                <img src="img/main/ministr.svg" alt="">
+                            </div>
+                            <div class="quoteItem-caption">
+                                <p>Асхат Аймағамбетов</p>
+                                <span>ҚР Білім және ғылым министрі</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="rate" id="rate">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-md-7">
+                <div class="rate-caption">
+                    <h2 class="title">Рейтинг жүйесі</h2>
+                    <p>Біздің платформадағы рейтинг жүйесі сіздің табысыңызды максималды дұрыс бағалау үшін жасалған</p>
+                    <div class="rateItem zoomIn wow animated">
+                        <div class="rateItem-img">
+                            <img src="img/main/rate1.svg" alt="">
+                        </div>
+                        <div class="rateItem-caption">
+                            <h3>Кемеңгер</h3>
+                            <p>
+                                <i class="icon i-star"></i>
+                                4.5<span>-тен жоғары</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="rateItem zoomIn wow animated delay-1s">
+                        <div class="rateItem-img">
+                            <img src="img/main/rate2.svg" alt="">
+                        </div>
+                        <div class="rateItem-caption">
+                            <h3>Үздік</h3>
+                            <p>
+                                <i class="icon i-star"></i>
+                                4.0-4.49
+                            </p>
+                        </div>
+                    </div>
+                    <div class="rateItem zoomIn wow animated delay-1s">
+                        <div class="rateItem-img">
+                            <img src="img/main/rate3.svg" alt="">
+                        </div>
+                        <div class="rateItem-caption">
+                            <h3>Бастаушы</h3>
+                            <p>
+                                <i class="icon i-star"></i>
+                                2.0-3.99
+                            </p>
+                        </div>
+                    </div>
+                    <div class="rate-notice">
+                        <p>Рейтинг 2.0 ден төмен мұғалімдер автоматты түрде жүйеден шығаралыды</p>
+                        <span><i class="icon i-star-grey"></i> <2.0 </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-md-5">
+                <div class="rateFaq">
+                    <div class="rateFaq-item">
+                        <div class="ask"><i class="icon down-blue"></i> Рейтинг қалай есептеледі?</div>
+                        <div class="answer">
+                            <h4>+4,0 балл</h4>
+                            <p>мұғалімге оқушылардың берген рейтингілердің арифметикалық ортасы</p>
+                            <h4>+4,0 балл</h4>
+                            <p>мұғалімге оқушылардың берген рейтингілердің арифметикалық ортасы</p>
+                            <h4>+4,0 балл</h4>
+                            <p>мұғалімге оқушылардың берген рейтингілердің арифметикалық ортасы</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="income" id="income">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-md-6">
+                <div class="income-caption pr-120">
+                    <h2 class="title-white">
+                        Табысыңызды онлайн табыңыз
+                    </h2>
+                    <p>Құрметті ұстаз, табысты табу үшін офисқа немесе мектепке бару қажет емес.</p>
+                    <button class="btn-plain btn-white">Табыс табуды бастау</button>
+                </div>
+            </div>
+            <div class="col-xl-6 col-md-6">
+                <div class="income-caption pl-120">
+                    <p>Сіз, Daryn Teacher платформасында онлайн түрде, өзіңізге ыңғайлы кез-келген жерден сабақ беру
+                        арқылы табысыңызды айына:</p>
+                    <h2 class="title-white">
+                        200 000 теңге
+                    </h2>
+                    <p>-ге дейін көбейте аласыз.</p>
+                </div>
+            </div>
+        </div>
+        <div class="income-form">
+            <h2>Өз табысыңыз қандай болатынын есептеп көріңіз</h2>
+            <div class="incomeItem-cover">
+                <div class="incomeItem">
+                    <div class="incomeItem-head">
+                        <h3><span id="ex6SliderVal">2</span>күн</h3>
+                        <p>1 аптадағы жұмыс күні</p>
+                    </div>
+                    <input id="ex6" type="text" data-slider-min="2" data-slider-max="7" data-slider-step="1"
+                           data-slider-value="3 "/>
+                    <ul>
+                        <li>2 күн</li>
+                        <li>4 күн</li>
+                        <li>6 күн</li>
+                        <li>7 күн</li>
+                    </ul>
+                </div>
+                <div class="incomeItem">
+                    <div class="incomeItem-head">
+                        <h3><span id="ex7SliderVal">2</span>сағат</h3>
+                        <p>1 күндегі жұмыс сағаты</p>
+                    </div>
+                    <input id="ex7" type="text" data-slider-min="2" data-slider-max="8" data-slider-step="1"
+                           data-slider-value="3 "/>
+                    <ul>
+                        <li>2 cағ.</li>
+                        <li>4 cағ.</li>
+                        <li>6 cағ.</li>
+                        <li>8 cағ.</li>
+                    </ul>
+                </div>
+                <div class="incomeItem-result">
+                    <p>Табыс болу мүмкін</p>
+                    <h3>189 900</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="advantage bg-lightBlue" id="advantage">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-md-6">
+                <h2 class="title">Өте тиімді платформа</h2>
+                <div class="advantageList">
+                    <img src="img/icon/check-green.svg" alt="">
+                    <div class="advantageList-caption">
+                        <h3>Ыңғайлы</h3>
+                        <p>Сізге тек компьютер мен интернет қажет. Қалғаны бізден 😉.</p>
+                    </div>
+                </div>
+                <div class="advantageList">
+                    <img src="img/icon/check-green.svg" alt="">
+                    <div class="advantageList-caption">
+                        <h3>Оқушыларды іздеу қажеті жоқ</h3>
+                        <p>Біздің платформада 100 000 астам оқушылар тіркеліп білім алып жатыр.</p>
+                    </div>
+                </div>
+                <div class="advantageList">
+                    <img src="img/icon/check-green.svg" alt="">
+                    <div class="advantageList-caption">
+                        <h3>Артық жұмыссыз</h3>
+                        <p>Қағазбастылықтан арылыңыз. Ешқандай журнал толтырып, дәптер тексерудің қажеті жоқ</p>
+                    </div>
+                </div>
+                <div class="advantageList">
+                    <img src="img/icon/check-green.svg" alt="">
+                    <div class="advantageList-caption">
+                        <h3>Сенімді</h3>
+                        <p>Тапқан табысыңызды апта сайын шығарып алуға мүмкіндігіңіз бар</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-md-6">
+                <div class="bonusItem-cover">
+                    <div class="bonusItem zoomIn wow animated">
+                        <h3>Наушник және микрофон</h3>
+                        <img src="img/main/headphone.png" alt="">
+                    </div>
+                    <div class="bonusItem zoomIn wow animated delay-1s">
+                        <img src="img/main/web.png" alt="">
+                        <h3>Веб камера</h3>
+                    </div>
+                    <p>Платформада тез әрі сапалы білім беру үшін сізге біз тегін наушник және камера береміз:</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="btn-box">
+            <button class="btn-plain btn-purple call-modal">Қосылу</button>
+        </div>
+    </div>
+</section>
+<section class="faq">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 col-md-5">
+                <h2 class="title">Платформа қалай жұмыс жасайды?</h2>
+                <div class="faq-item" data-link="faqImg-1">
+                    <div class="faq-item-head">
+                        <i class="icon faq-1"></i>
+                        <h3>Оқыту процесі</h3>
+                        <i class="icon down-grey"></i>
+                    </div>
+                    <div class="faq-item-answer">
+                        <p>Онлайн платформада сізге оқушылар өзінің сұрақтары бойынша хабарласатын болады. Сіз оның кім
+                            және қандай сұрақпен хабарласып тұрғанын көре аласыз.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-link="faqImg-2">
+                    <div class="faq-item-head">
+                        <i class="icon faq-2"></i>
+                        <h3>Видео хабарландыру</h3>
+                        <i class="icon down-grey"></i>
+                    </div>
+                    <div class="faq-item-answer">
+                        <p>Онлайн платформада сізге оқушылар өзінің сұрақтары бойынша хабарласатын болады. Сіз оның кім
+                            және қандай сұрақпен хабарласып тұрғанын көре аласыз.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-link="faqImg-3">
+                    <div class="faq-item-head">
+                        <i class="icon faq-3"></i>
+                        <h3>Бағалау</h3>
+                        <i class="icon down-grey"></i>
+                    </div>
+                    <div class="faq-item-answer">
+                        <p>Онлайн платформада сізге оқушылар өзінің сұрақтары бойынша хабарласатын болады. Сіз оның кім
+                            және қандай сұрақпен хабарласып тұрғанын көре аласыз.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-link="faqImg-4">
+                    <div class="faq-item-head">
+                        <i class="icon faq-4"></i>
+                        <h3>Жеке кабинет</h3>
+                        <i class="icon down-grey"></i>
+                    </div>
+                    <div class="faq-item-answer">
+                        <p>Онлайн платформада сізге оқушылар өзінің сұрақтары бойынша хабарласатын болады. Сіз оның кім
+                            және қандай сұрақпен хабарласып тұрғанын көре аласыз.</p>
+                    </div>
+                </div>
+                <button class="btn-plain btn-purple call-modal">Қосылу</button>
+            </div>
+            <div class="col-xl-7 col-md-7">
+                <div class="faq-item-img img-active" id="faqImg-1">
+                    <img src="img/main/faq1.png" alt="">
+                </div>
+                <div class="faq-item-img" id="faqImg-2">
+                    <img src="img/main/faq2.png" alt="">
+                </div>
+                <div class="faq-item-img" id="faqImg-3">
+                    <img src="img/main/faq3.png" alt="">
+                </div>
+                <div class="faq-item-img" id="faqImg-4">
+                    <img src="img/main/faq4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="review bg-lightBlue">
+    <div class="container">
+        <h2 class="title">Пікір</h2>
+        <p>Платформада жұмыс жасап жатқан мұғалімдердің пікірі</p>
+        <div class="row">
+            <div class="col-xl-6 col-md-6">
+                <div class="main-video">
+                    <video controls poster="img/main/video-poster.png">
+                        <source src="movie.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="col-xl-6 col-md-6">
+                <div class="review-for">
+                    <div class="review-caption">
+                        <a href="#" class="show-video">
+                            <i class="icon i-play-blue"></i>
+                            Видео көру
+                        </a>
+                        <h3>Нармухамедова Асия Радиковна</h3>
+                        <p>
+                            Дарында балаларға арналған мамандандырылған С.Сейфуллин атындағы №11 облыстық қазақ
+                            мектеп-интернат кешенінің химия-биология бағытында оқып білім алдым.
+                        </p>
+                    </div>
+                    <div class="review-caption">
+                        <a href="#" class="show-video">
+                            <i class="icon i-play-blue"></i>
+                            Видео көру
+                        </a>
+                        <h3>Нармухамедова Асия Радиковна 2</h3>
+                        <p>
+                            Дарында балаларға арналған мамандандырылған С.Сейфуллин атындағы №11 облыстық қазақ
+                            мектеп-интернат кешенінің химия-биология бағытында оқып білім алдым.
+                        </p>
+                    </div>
+                    <div class="review-caption">
+                        <a href="#" class="show-video">
+                            <i class="icon i-play-blue"></i>
+                            Видео көру
+                        </a>
+                        <h3>Нармухамедова Асия Радиковна 3</h3>
+                        <p>
+                            Дарында балаларға арналған мамандандырылған С.Сейфуллин атындағы №11 облыстық қазақ
+                            мектеп-интернат кешенінің химия-биология бағытында оқып білім алдым.
+                        </p>
+                    </div>
+                    <div class="review-caption">
+                        <a href="#" class="show-video">
+                            <i class="icon i-play-blue"></i>
+                            Видео көру
+                        </a>
+                        <h3>Нармухамедова Асия Радиковна</h3>
+                        <p>
+                            Дарында балаларға арналған мамандандырылған С.Сейфуллин атындағы №11 облыстық қазақ
+                            мектеп-интернат кешенінің химия-биология бағытында оқып білім алдым.
+                        </p>
+                    </div>
+                    <div class="review-caption">
+                        <a href="#" class="show-video">
+                            <i class="icon i-play-blue"></i>
+                            Видео көру
+                        </a>
+                        <h3>Нармухамедова Асия Радиковна</h3>
+                        <p>
+                            Дарында балаларға арналған мамандандырылған С.Сейфуллин атындағы №11 облыстық қазақ
+                            мектеп-интернат кешенінің химия-биология бағытында оқып білім алдым.
+                        </p>
+                    </div>
+                    <div class="review-caption">
+                        <a href="#" class="show-video">
+                            <i class="icon i-play-blue"></i>
+                            Видео көру
+                        </a>
+                        <h3>Нармухамедова Асия Радиковна</h3>
+                        <p>
+                            Дарында балаларға арналған мамандандырылған С.Сейфуллин атындағы №11 облыстық қазақ
+                            мектеп-интернат кешенінің химия-биология бағытында оқып білім алдым.
+                        </p>
+                    </div>
+                    <div class="review-caption">
+                        <a href="#" class="show-video">
+                            <i class="icon i-play-blue"></i>
+                            Видео көру
+                        </a>
+                        <h3>Нармухамедова Асия Радиковна</h3>
+                        <p>
+                            Дарында балаларға арналған мамандандырылған С.Сейфуллин атындағы №11 облыстық қазақ
+                            мектеп-интернат кешенінің химия-биология бағытында оқып білім алдым.
+                        </p>
+                    </div>
+                </div>
+                <div class="review-nav">
+                    <div class="review-img">
+                        <img src="img/main/review-user.png" alt="">
+                    </div>
+                    <div class="review-img">
+                        <img src="img/main/review-user.png" alt="">
+                    </div>
+                    <div class="review-img">
+                        <img src="img/main/review-user.png" alt="">
+                    </div>
+                    <div class="review-img">
+                        <img src="img/main/review-user.png" alt="">
+                    </div>
+                    <div class="review-img">
+                        <img src="img/main/review-user.png" alt="">
+                    </div>
+                    <div class="review-img">
+                        <img src="img/main/review-user.png" alt="">
+                    </div>
+                    <div class="review-img">
+                        <img src="img/main/review-user.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="faq-base">
+    <div class="container">
+        <h2 class="title">Жиі қойылатын сұрақтар</h2>
+        <div class="faqBox">
+            <div class="faq-base-item">
+                <h3>Cабақтар не үшін көпқұрамды?</h3>
+                <p>Әлемдік онлайн білім беру ресурстарының көпшілігінің зерттеулеріне көре тек қана көрілген
+                    видеосабақтардың үштен бір бөлігі ғана есте қалатын көрінеді.</p>
+                <a href="#" class="show-more">Толық көру <img src="img/icon/arr-next-purple.svg" alt=""></a>
+            </div>
+            <div class="faq-base-item">
+                <h3>Контент қандай стандартқа негізделген?</h3>
+                <p>Платформамыздағы ағылшын тілі және астрономия пәндері ғана халықаралық жаңаша методикалар негізінде
+                    жасалған..</p>
+                <a href="#" class="show-more">Толық көру <img src="img/icon/arr-next-purple.svg" alt=""></a>
+            </div>
+            <div class="faq-base-item border-none">
+                <h3>Мобильді қосымшасы болады ма?</h3>
+                <p>Бағдарламаның толық нұсқасы қолданушыларымыз үшін желтоқсан айынан бастап қолжетімді болады.</p>
+                <a href="#" class="show-more">Толық көру <img src="img/icon/arr-next-purple.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="btn-box">
+            <a href="#" class="purple-border">Блогқа өту</a>
+        </div>
+    </div>
+</section>
+<section class="apps bg-lightBlue">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 col-md-6">
+                <h2>Мобильді қосымша арқылы сабақ беру <span>оңай әрі тез</span></h2>
+                <div class="apps-cover">
+                    <a href="#" class="btn-app">
+                        <i class="icon i-ios"></i>
+                        <p>
+
+                            <span>Скачать из</span>
+                            App Store
+                        </p>
+                    </a>
+                    <a href="#" class="btn-app">
+                        <i class="icon i-android"></i>
+                        <p>
+
+                            <span>Доступно в</span>
+                            Google play
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-5 col-md-6">
+                <div class="app-img zoomIn wow animated">
+                    <img src="img/main/app.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="modal-box">
+    <div class="modal-box-head d-flex-justify">
+        <h3>Қосылу </h3>
+        <button class="btn-plain close-modal"><i class="fas fa-times"></i></button>
+    </div>
+    <form action="#">
+        <div class="form-box">
+            <div class="input-effect">
+                <input class="effect-16" type="text">
+                <label>Аты-жөні</label><span class="focus-border"></span>
+            </div>
+            <div class="select-box">
+                <select class="selectpicker" data-live-search="true" title="Аймак" data-live-search-placeholder="Аймак бойынша іздеңіз">
+                    <option data-tokens="ketchup mustard">Алматы</option>
+                    <option data-tokens="mustard">Шымкент</option>
+                    <option data-tokens="frosting">Астана</option>
+                </select>
+            </div>
+            <div class="input-effect">
+                <input class="effect-16"  type="text" id="phone">
+                <label>Телефон нөмірі</label><span class="focus-border"></span>
+            </div>
+            <div class="select-box">
+                <select class="selectpicker" data-live-search="true" title="Сабақ беретін пәнді таңдаңыз" data-live-search-placeholder="Сабақ бойынша іздеңіз">
+                    <option data-tokens="ketchup mustard">Алгебра</option>
+                    <option data-tokens="mustard">Алгебра</option>
+                    <option data-tokens="frosting">Алгебра</option>
+                </select>
+            </div>
+            <div class="new-field">
+
+            </div>
+            <button class="btn-plain add-field">+ Тағы пән қосу</button>
+        </div>
+
+        <button class="btn-plain btn-purple">Қосылу</button>
+    </form>
+</div>
+<div class="overlay"></div>
+<footer>
+    <div class="copyright">
+        <p>© 2019 Bugin Holding</p>
+    </div>
+    <div class="footer-center">
+        <ul class="footer-social">
+            <li><a href="#"><i class="icon ios-grey"></i>iOS</a></li>
+            <li><a href="#"><i class="icon android-grey"></i>Android</a></li>
+        </ul>
+        <ul class="footer-links">
+            <li><a href="#"><i class="icon i-ins"></i></a></li>
+            <li><a href="#"><i class="icon i-facebook"></i></a></li>
+            <li><a href="#"><i class="icon i-youtube"></i></a></li>
+            <li><a href="#"><i class="icon i-vk"></i></a></li>
+            <li><a href="#"><i class="icon i-whatsapp"></i></a></li>
+        </ul>
+    </div>
+    <a href="https://bgpro.kz/" target="_blank">
+        <div class="bg-box">
+            <p>Дизайн и разработка</p>
+            <img src="img/logo/logo-bg.svg" alt="">
+        </div>
+    </a>
+</footer>
+<script src="js/libs.min.js"></script>
+<script src="js/bootstrap-slider.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.nicelabel.js"></script>
+<script src="js/jquery.inputmask.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+<script src="slick/slick.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

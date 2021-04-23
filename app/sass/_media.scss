@@ -1,0 +1,1073 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .menu {
+    flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: flex-start;
+    li {
+      width: 100%;
+      a {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+        padding: 15px;
+      }
+    }
+  }
+  .title {
+    font-size: 26px;
+    margin-bottom: 10px;
+    line-height: normal;
+  }
+  .title-white {
+    font-size: 26px;
+    margin-bottom: 10px;
+    line-height: normal;
+  }
+  .menu-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .menu-xs {
+    display: block;
+    position: fixed;
+    background-color: #FFDC64;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s ease;
+    transform: translateX(+100%);
+    &-head {
+      display: block;
+      padding: 20px 15px;
+      margin-bottom: 10px;
+      text-align: right;
+    }
+  }
+  .call-menu {
+    display: inline-block;
+    margin-left: 12px;
+    img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  .close-menu {
+    display: inline-block;
+    img {
+      width: 28px;
+      height: 28px;
+    }
+  }
+  header {
+    padding: 10px 0;
+    .header {
+      align-items: center !important;
+    }
+  }
+  .logo {
+    height: 28px;
+    img {
+      height: 100%;
+    }
+  }
+  .linkLogin {
+    padding: 4px 6px;
+    span {
+      display: none;
+    }
+    i {
+      margin-right: 0;
+    }
+  }
+  .video-hint {
+    font-size: 16px;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 10px;
+    &:after {
+      display: none;
+    }
+  }
+  .main-video {
+    padding-top: 20px;
+    video {
+      height: 210px;
+    }
+  }
+  .main {
+    padding: 30px 0;
+    &-caption {
+      padding-top: 0;
+      span {
+        font-size: 16px;
+      }
+      h1 {
+        font-size: 30px;
+        line-height: 39px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 14px;
+      }
+      .btn-purple {
+        margin-top: 20px;
+      }
+    }
+  }
+  .btn-purple {
+    width: 100%;
+  }
+  .quoteBox {
+    margin-top: 15px;
+    width: 100%;
+    position: static;
+    transform: translate(0, 0);
+    padding: 15px;
+  }
+  .quoteItem {
+    &-img {
+      height: 40px;
+      width: 40px;
+    }
+    &-caption {
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+  .rate {
+    padding: 30px 0;
+    &-caption {
+      p {
+        font-size: 14px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .rateItem {
+    display: block;
+    margin-bottom: 15px;
+    &-img {
+      width: 100%;
+      height: 184px;
+    }
+    &-caption {
+      padding-left: 0;
+      padding-top: 15px;
+      h3 {
+        padding-bottom: 10px;
+      }
+      p {
+        font-size: 16px;
+        margin-bottom: 0;
+        .i-star {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .rate-notice {
+    p {
+      line-height: normal;
+    }
+    span {
+      font-size: 28px;
+      i {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+  .rateFaq {
+    margin-left: 0;
+    margin-top: 20px;
+    margin-right: 0;
+    padding: 15px 10px 5px 10px;
+    max-width: 100%;
+  }
+  .income {
+    padding: 30px 0;
+    background: linear-gradient(to bottom, #007dff 0%, #007dff 50%, #1c306d 50%, #1c306d 100%);
+    &-caption {
+      p {
+        font-size: 14px;
+      }
+      .btn-white {
+        margin: 20px auto;
+      }
+    }
+  }
+  .btn-white {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  .income-form {
+    width: 100%;
+    padding: 20px 15px;
+    position: static;
+    h2 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      line-height: normal;
+    }
+  }
+  .incomeItem {
+    width: 100%;
+    margin-bottom: 15px;
+    &-head {
+      margin-bottom: 5px;
+      h3 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+    ul {
+      li {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .incomeItem-cover {
+    display: block;
+  }
+  .advantage {
+    padding: 30px 0;
+    .title {
+      margin-bottom: 15px;
+    }
+    .btn-box {
+      margin-top: 20px;
+    }
+  }
+  .advantageList {
+    margin-bottom: 15px;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+    &-caption {
+      padding-left: 10px;
+      h3 {
+        font-size: 18px;
+        line-height: normal;
+      }
+      p {
+        font-size: 14px;
+        line-height: normal;
+      }
+    }
+  }
+  .bonusItem-cover {
+    padding-left: 0;
+    p {
+      font-size: 14px;
+    }
+  }
+  .bonusItem {
+    img {
+      width: 150px;
+      height: 140px;
+      object-fit: contain;
+    }
+    h3 {
+      font-size: 20px;
+    }
+  }
+
+  .faq{
+    padding: 30px 0;
+    .btn-purple{
+      margin-top: 20px;
+    }
+  }
+  .faq-item{
+    padding: 10px 10px 10px 16px;
+    &-head{
+      h3{
+        font-size: 18px;
+      }
+    }
+    &-answer{
+      p{
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+    &-img{
+      margin-top: 20px;
+      height: 235px;
+    }
+  }
+  .review{
+    padding: 30px 0;
+    p{
+      font-size: 14px;
+    }
+    .row{
+      margin-top: 0;
+    }
+    .main-video{
+     video{
+       height: 205px;
+     }
+    }
+    &-caption{
+      h3{
+        font-size: 20px;
+        line-height: 22px;
+      }
+    }
+  }
+  .review-nav {
+    .slick-prev {
+      left: 5px;
+    }
+    .slick-next {
+      right: 5px;
+    }
+  }
+  .faq-base{
+    padding: 30px 0;
+    .title{
+      margin-bottom: 20px;
+    }
+  }
+  .faqBox {
+    display: block;
+  }
+  .faq-base-item{
+    padding: 20px 15px;
+    border-right: none;
+    border-bottom: 1px solid #EAEAEA;
+    h3{
+      font-size: 20px;
+    }
+    p{
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+  .purple-border{
+    width: 100%;
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+  .apps{
+    padding: 30px 0;
+    h2{
+      font-size: 24px;
+      line-height: normal;
+      margin-bottom: 15px;
+    }
+  }
+  .btn-app{
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15px;
+    i{
+      margin-right: 8px;
+    }
+    p{
+      font-size: 16px;
+      span{
+        font-size: 12px;
+      }
+    }
+  }
+  .app-img{
+    height: 300px;
+    img{
+      object-fit: contain;
+    }
+  }
+  footer {
+    padding: 20px 15px;
+    display: block;
+    .copyright{
+      margin-bottom: 10px;
+    }
+  }
+  .footer-social {
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    li{
+      a{
+        padding-left: 0;
+      }
+    }
+  }
+  .footer-links {
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    margin-left: -4px;
+    li{
+      a{
+        padding: 0;
+      }
+    }
+  }
+  .pr-120 {
+    padding-right: 0;
+  }
+  .pl-120 {
+    padding-left: 0;
+  }
+  .showed {
+    transform: translateX(0%);
+  }
+
+  .modal-box {
+    width: 90%;
+    margin: 0 5%;
+    z-index: 999;
+    padding: 20px;
+    top: 20%;
+    left: 0;
+    transform: translate(0, 0);
+    &-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      i {
+        font-size: 20px;
+      }
+      h3 {
+        font-size: 22px;
+      }
+    }
+    .btn-blue {
+      width: 100%;
+      font-size: 16px;
+      padding: 10px 15px;
+      font-family: "Inter-Regular";
+    }
+    input {
+      font-size: 16px;
+      padding: 10px 15px;
+    }
+    .pass-recovery {
+      color: $blue;
+      display: block;
+      margin-bottom: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      font-family: "Inter-Regular";
+    }
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .linkLogin {
+    padding: 4px 6px;
+    span {
+      display: none;
+    }
+    i {
+      margin-right: 0;
+    }
+  }
+  .income-form {
+    margin-top: 30px;
+    width: 100%;
+    padding: 20px 15px;
+    position: static;
+    h2 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      line-height: normal;
+    }
+  }
+  .incomeItem {
+    width: 100%;
+    margin-bottom: 15px;
+    &-head {
+      margin-bottom: 5px;
+      h3 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+    ul {
+      li {
+        font-size: 12px;
+      }
+    }
+  }
+  .incomeItem-cover {
+    display: block;
+  }
+  .bonusItem-cover{
+    padding-left: 0;
+  }
+  .pr-120 {
+    padding-right: 0;
+  }
+  .pl-120 {
+    padding-left: 0;
+  }
+  .video-hint {
+    font-size: 16px;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 10px;
+    &:after {
+      display: none;
+    }
+  }
+  .main-video {
+    padding-top: 20px;
+    video {
+      height: 210px;
+    }
+  }
+  .main {
+    padding: 30px 0 100px 0;
+    &-caption {
+      padding-top: 0;
+      span {
+        font-size: 16px;
+      }
+      h1 {
+        font-size: 30px;
+        line-height: 39px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 14px;
+      }
+      .btn-purple {
+        margin-top: 20px;
+      }
+    }
+  }
+  .quoteBox{
+    transform: translate(0, 133%);
+    width: 430px;
+    padding: 15px;
+    p{
+      font-size: 14px;
+    }
+  }
+  .quoteItem{
+    margin-top: 8px;
+    &-img{
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: normal;
+  }
+  .title-white {
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: normal;
+  }
+  p{
+    font-size: 14px;
+  }
+  .rate{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    p{
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+  .rateFaq{
+    margin-left: 0;
+    margin-top: 50px;
+    padding: 14px 10px 0px 10px;
+  }
+  .rateItem {
+    margin-bottom: 15px;
+    &-img{
+      width: 165px;
+      height: 87px;
+    }
+    &-caption {
+      h3 {
+        padding-bottom: 10px;
+        margin-bottom: 0;
+      }
+      p {
+        font-size: 16px;
+        margin-bottom: 0;
+        .i-star {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .rate-notice {
+    p {
+      line-height: normal;
+    }
+    span {
+      font-size: 28px;
+      i {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+  .income{
+    padding: 40px 0;
+  }
+  .advantage {
+    padding: 30px 0;
+    .title {
+      margin-bottom: 15px;
+    }
+    .btn-box {
+      margin-top: 20px;
+    }
+  }
+  .advantageList {
+    margin-bottom: 15px;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+    &-caption {
+      padding-left: 10px;
+      h3 {
+        font-size: 18px;
+        line-height: normal;
+      }
+      p {
+        font-size: 14px;
+        line-height: normal;
+      }
+    }
+  }
+  .bonusItem-cover {
+    padding-left: 0;
+    p {
+      font-size: 14px;
+    }
+  }
+  .bonusItem {
+    img {
+      width: 150px;
+      height: 140px;
+      object-fit: contain;
+    }
+    h3 {
+      font-size: 20px;
+    }
+  }
+
+  .faq{
+    padding: 30px 0;
+    .btn-purple{
+      margin-top: 20px;
+    }
+  }
+  .faq-item{
+    padding: 10px 10px 10px 16px;
+    &-head{
+      h3{
+        font-size: 15px;
+      }
+    }
+    &-answer{
+      p{
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+    &-img{
+      margin-top: 20px;
+      height: 235px;
+    }
+  }
+  .review{
+    padding: 30px 0;
+    p{
+      font-size: 14px;
+    }
+    .row{
+      margin-top: 0;
+    }
+    .main-video{
+      video{
+        height: 205px;
+      }
+    }
+    &-caption{
+      h3{
+        font-size: 20px;
+        line-height: 22px;
+      }
+    }
+  }
+  .review-nav {
+    .slick-prev {
+      left: 5px;
+    }
+    .slick-next {
+      right: 5px;
+    }
+  }
+  .faq-base{
+    padding: 30px 0;
+    .title{
+      margin-bottom: 20px;
+    }
+  }
+
+  .faq-base-item{
+    padding: 20px 15px;
+    h3{
+      font-size: 20px;
+    }
+    p{
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .apps{
+    padding: 30px 0;
+    h2{
+      font-size: 24px;
+      line-height: normal;
+      margin-bottom: 15px;
+    }
+  }
+  .app-img{
+    height: 300px;
+    img{
+      object-fit: contain;
+    }
+  }
+  footer {
+    padding: 20px 15px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+
+  .linkLogin {
+    padding: 4px 6px;
+    span {
+      display: none;
+    }
+    i {
+      margin-right: 0;
+    }
+  }
+  .income-form {
+    margin-top: 30px;
+    width: 100%;
+    padding: 20px 15px;
+    position: static;
+    h2 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      line-height: normal;
+    }
+  }
+  .incomeItem {
+    width: 100%;
+    margin-bottom: 15px;
+    &-head {
+      margin-bottom: 5px;
+      h3 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+    ul {
+      li {
+        font-size: 12px;
+      }
+    }
+  }
+  .incomeItem-cover {
+    display: block;
+  }
+  .bonusItem-cover{
+    padding-left: 0;
+  }
+  .pr-120 {
+    padding-right: 0;
+  }
+  .pl-120 {
+    padding-left: 0;
+  }
+  .video-hint {
+    font-size: 16px;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 10px;
+    &:after {
+      display: none;
+    }
+  }
+  .main-video {
+    padding-top: 20px;
+    video {
+      height: 210px;
+    }
+  }
+  .main {
+    padding: 30px 0 100px 0;
+    &-caption {
+      padding-top: 0;
+      span {
+        font-size: 16px;
+      }
+      h1 {
+        font-size: 30px;
+        line-height: 39px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 14px;
+      }
+      .btn-purple {
+        margin-top: 20px;
+      }
+    }
+  }
+  .quoteBox{
+    transform: translate(0, 110%);
+    width: 430px;
+    padding: 15px;
+    p{
+      font-size: 14px;
+    }
+  }
+  .quoteItem{
+    margin-top: 8px;
+    &-img{
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: normal;
+  }
+  .title-white {
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: normal;
+  }
+  p{
+    font-size: 14px;
+  }
+  .rate{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    p{
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+  .rateFaq{
+    margin-left: 0;
+    margin-top: 50px;
+    padding: 14px 10px 0px 10px;
+  }
+  .rateItem {
+    margin-bottom: 15px;
+    &-img{
+      width: 165px;
+      height: 87px;
+    }
+    &-caption {
+      h3 {
+        padding-bottom: 10px;
+        margin-bottom: 0;
+      }
+      p {
+        font-size: 16px;
+        margin-bottom: 0;
+        .i-star {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .rate-notice {
+    p {
+      line-height: normal;
+    }
+    span {
+      font-size: 28px;
+      i {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+  .income{
+    padding: 40px 0;
+  }
+  .advantage {
+    padding: 30px 0;
+    .title {
+      margin-bottom: 15px;
+    }
+    .btn-box {
+      margin-top: 20px;
+    }
+  }
+  .advantageList {
+    margin-bottom: 15px;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+    &-caption {
+      padding-left: 10px;
+      h3 {
+        font-size: 18px;
+        line-height: normal;
+      }
+      p {
+        font-size: 14px;
+        line-height: normal;
+      }
+    }
+  }
+  .bonusItem-cover {
+    padding-left: 0;
+    p {
+      font-size: 14px;
+    }
+  }
+  .bonusItem {
+    img {
+      width: 150px;
+      height: 140px;
+      object-fit: contain;
+    }
+    h3 {
+      font-size: 20px;
+    }
+  }
+
+  .faq{
+    padding: 30px 0;
+    .btn-purple{
+      margin-top: 20px;
+    }
+  }
+  .faq-item{
+    padding: 10px 10px 10px 16px;
+    &-head{
+      h3{
+        font-size: 15px;
+      }
+    }
+    &-answer{
+      p{
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+    &-img{
+      margin-top: 20px;
+      height: 235px;
+    }
+  }
+  .review{
+    padding: 30px 0;
+    p{
+      font-size: 14px;
+    }
+    .row{
+      margin-top: 0;
+    }
+    .main-video{
+      video{
+        height: 205px;
+      }
+    }
+    &-caption{
+      h3{
+        font-size: 20px;
+        line-height: 22px;
+      }
+    }
+  }
+  .review-nav {
+    .slick-prev {
+      left: 5px;
+    }
+    .slick-next {
+      right: 5px;
+    }
+  }
+  .faq-base{
+    padding: 30px 0;
+    .title{
+      margin-bottom: 20px;
+    }
+  }
+
+  .faq-base-item{
+    padding: 20px 15px;
+    h3{
+      font-size: 20px;
+    }
+    p{
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .apps{
+    padding: 30px 0;
+    h2{
+      font-size: 24px;
+      line-height: normal;
+      margin-bottom: 15px;
+    }
+  }
+  .app-img{
+    height: 300px;
+    img{
+      object-fit: contain;
+    }
+  }
+  footer {
+    padding: 20px 15px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 2000px) {
+
+}
+
+@media (min-width: 1439px) and (max-width: 2000px) {
+
+}
+
+@media (min-width: 1700px) and (max-width: 3000px) {
+
+}
